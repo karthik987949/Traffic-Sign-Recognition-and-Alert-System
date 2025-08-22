@@ -27,14 +27,53 @@ engine = pyttsx3.init()
 engine.setProperty('rate', 150)
 engine.setProperty('volume', 0.9)
 
-# Load YOLOv8 model
 model = YOLO("model/yolov8n.pt")
 
-# Define traffic sign classes (aligned with COCO)
+# Define traffic sign classes (GTSRB)
 sign_classes = {
-    11: "Stop Sign",
-    9: "Traffic Light",
-    8:"U Turn"
+    0: "Speed Limit 20",
+    1: "Speed Limit 30",
+    2: "Speed Limit 50",
+    3: "Speed Limit 60",
+    4: "Speed Limit 70",
+    5: "Speed Limit 80",
+    6: "Speed Limit 100",
+    7: "Speed Limit 120",
+    8: "End of Speed Limit",
+    9: "No Passing",
+    10: "No Passing for Vehicles Over 3.5t",
+    11: "Right of Way",
+    12: "Priority Road",
+    13: "Yield",
+    14: "Stop",
+    15: "No Vehicles",
+    16: "No Entry",
+    17: "General Caution",
+    18: "Dangerous Curve Left",
+    19: "Dangerous Curve Right",
+    20: "Double Curve",
+    21: "Bumpy Road",
+    22: "Slippery Road",
+    23: "Road Narrows Right",
+    24: "Road Work",
+    25: "Traffic Signals",
+    26: "Pedestrians",
+    27: "Children Crossing",
+    28: "Bicycles Crossing",
+    29: "Beware of Ice/Snow",
+    30: "Wild Animals Crossing",
+    31: "End of Restrictions",
+    32: "Turn Right Ahead",
+    33: "Turn Left Ahead",
+    34: "Ahead Only",
+    35: "Go Straight or Right",
+    36: "Go Straight or Left",
+    37: "Keep Right",
+    38: "Keep Left",
+    39: "Roundabout",
+    40: "End of No Passing",
+    41: "End of No Passing for Vehicles Over 3.5t",
+    42: "Customs"
 }
 
 class TrafficSignApp:
@@ -184,4 +223,5 @@ class TrafficSignApp:
 if __name__ == "__main__":
     root = tk.Tk()
     app = TrafficSignApp(root)
+
     app.run()
