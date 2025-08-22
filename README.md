@@ -2,7 +2,7 @@
 
 A real-time computer vision system to detect traffic signs using YOLOv8, display Indian traffic rule alerts, and provide voice notifications. Built to enhance road safety awareness.
 
-![Netlfix Clone Banner](assets/thumbnai.png) 
+![preview of the output](assets/pic.png) 
 ## 🔥 Features
 - 📹 **Real-Time Detection**: Processes live webcam feed or video files (MP4, AVI, MOV).
 - 🚸 **Traffic Sign Recognition**: Identifies GTSRB signs (e.g., Stop, Speed Limit, No Entry) using YOLOv8.
