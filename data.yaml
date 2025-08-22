@@ -1,0 +1,4 @@
+train: C:/Users/LUCKY/OneDrive/Desktop/EDP/dataset/train
+val: C:/Users/LUCKY/OneDrive/Desktop/EDP/dataset/test
+nc: 43
+names: ['Speed Limit 20', 'Speed Limit 30', 'Speed Limit 50', 'Speed Limit 60', 'Speed Limit 70', 'Speed Limit 80', 'Speed Limit 100', 'Speed Limit 120', 'End of Speed Limit', 'No Passing', 'No Passing for Vehicles Over 3.5t', 'Right of Way', 'Priority Road', 'Yield', 'Stop', 'No Vehicles', 'No Entry', 'General Caution', 'Dangerous Curve Left', 'Dangerous Curve Right', 'Double Curve', 'Bumpy Road', 'Slippery Road', 'Road Narrows Right', 'Road Work', 'Traffic Signals', 'Pedestrians', 'Children Crossing', 'Bicycles Crossing', 'Beware of Ice/Snow', 'Wild Animals Crossing', 'End of Restrictions', 'Turn Right Ahead', 'Turn Left Ahead', 'Ahead Only', 'Go Straight or Right', 'Go Straight or Left', 'Keep Right', 'Keep Left', 'Roundabout', 'End of No Passing', 'End of No Passing for Vehicles Over 3.5t', 'Customs']
