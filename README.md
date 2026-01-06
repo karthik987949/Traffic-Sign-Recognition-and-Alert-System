@@ -128,5 +128,5 @@ Tested on August 8, 2025, with a webcam and stop sign image on a phone:
 - 🔐 Enhance GUI with user authentication
 - 📊 Add analytics for detected signs
 
-## 👨‍💻 Made with ❤️ by Sai Karthik
+##  by Sai Karthik
 > 📫 Reach me on [GitHub](https://github.com/Madhavrao2403](https://github.com/karthik987949)) | [LinkedIn](https://www.linkedin.com/in/paluvai-sai-karthik-3530a8237/)
